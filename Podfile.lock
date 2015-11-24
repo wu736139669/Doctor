@@ -1,0 +1,93 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DTCoreText (1.6.16):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.8)
+  - DTFoundation/DTAnimatedGIF (1.7.8)
+  - DTFoundation/DTHTMLParser (1.7.8):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.8):
+    - DTFoundation/Core
+  - EGOCache (2.1.3)
+  - Godzippa (1.1.0)
+  - IQKeyboardManager (3.3.4)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (3.0.5)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SBJson (4.0.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SecureUDID (1.1)
+  - STableViewController (0.0.1)
+  - SVWebViewController (1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DTCoreText
+  - EGOCache
+  - Godzippa
+  - IQKeyboardManager
+  - Mantle
+  - MBProgressHUD
+  - MJRefresh
+  - Reachability
+  - ReactiveCocoa
+  - SBJson
+  - SDWebImage
+  - SecureUDID
+  - STableViewController
+  - SVWebViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  DTCoreText: 934a16fe9ffdd169c96261721b39dc312b75713d
+  DTFoundation: 46e2b2fafe78d67febfd8d1f85fe9845a093f00e
+  EGOCache: f0295dbe041156acabd39021354ad1045ee49e72
+  Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 809ed03f2014275056c3d65e2812aef1ba5b0f98
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SecureUDID: 82a9df1f3baa7a0964600ac93a81273121775b17
+  STableViewController: f6900013fc3455973c51992fe248f62c45b20a9a
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
+
+COCOAPODS: 0.39.0
