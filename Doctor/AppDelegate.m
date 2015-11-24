@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "MainTabBarViewController.h"
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _mainViewController = [[MainTabBarViewController alloc] init];
+    self.window.rootViewController = _mainViewController;
+    _mainViewController.delegate = self;
+
     return YES;
 }
 
@@ -40,6 +44,26 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -  UITabBarController
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
+{
+    return YES;
+}
+
+/**
+ * 当前可视viewController
+ */
++ (UIViewController *)visibleViewController
+{
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    UITabBarController *tab = (UITabBarController *)delegate.window.rootViewController;
+    if ([tab isKindOfClass:[UITabBarController class]])
+    {
+        return ([(UINavigationController *)[[tab viewControllers] objectAtIndex:tab.selectedIndex] visibleViewController]);
+    }
+    return nil;
 }
 
 @end

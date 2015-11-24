@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MainTabBarViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) MainTabBarViewController* mainViewController;
+
++ (UIViewController *)visibleViewController;
 
 @end
 
