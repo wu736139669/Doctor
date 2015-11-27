@@ -7,9 +7,11 @@
 //
 
 #import "MyViewController.h"
-
+#import "MyTopView.h"
 @interface MyViewController ()
-
+{
+    MyTopView *_myTopView;
+}
 @end
 
 @implementation MyViewController
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"个人中心";
+    
+    _myTopView = [Ash_UIUtil instanceXibView:@"MyTopView"];
+    
+    _myTopView.frame = CGRectMake(0, 0, kScreenWidth, 200);
+    
 }
 
 - (void)didReceiveMemoryWarning {

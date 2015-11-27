@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		67DA7495E1DA50AC39223064 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 505D71422103A38B3602CE9B /* libPods.a */; };
+		A900FCFF1C07F9C6007B2E40 /* jiankantijian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FCFC1C07F9C6007B2E40 /* jiankantijian@3x.png */; };
+		A900FD001C07F9C6007B2E40 /* yiliaoxuqiu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FCFD1C07F9C6007B2E40 /* yiliaoxuqiu@3x.png */; };
+		A900FD011C07F9C6007B2E40 /* yuyuezixun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FCFE1C07F9C6007B2E40 /* yuyuezixun@3x.png */; };
+		A900FD051C07F9EE007B2E40 /* jiankantijian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD021C07F9EE007B2E40 /* jiankantijian@2x.png */; };
+		A900FD061C07F9EE007B2E40 /* yiliaoxuqiu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD031C07F9EE007B2E40 /* yiliaoxuqiu@2x.png */; };
+		A900FD071C07F9EE007B2E40 /* yuyuezixun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD041C07F9EE007B2E40 /* yuyuezixun@2x.png */; };
+		A900FD0B1C07FEBC007B2E40 /* MyTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A900FD0A1C07FEBC007B2E40 /* MyTopView.m */; };
+		A900FD0D1C07FF88007B2E40 /* MyTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A900FD0C1C07FF88007B2E40 /* MyTopView.xib */; };
+		A900FD0F1C080066007B2E40 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD0E1C080066007B2E40 /* avatar@2x.png */; };
+		A900FD111C080072007B2E40 /* avatar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD101C080072007B2E40 /* avatar@3x.png */; };
 		A9841F231C04357C00FB72AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F221C04357C00FB72AA /* main.m */; };
 		A9841F261C04357C00FB72AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F251C04357C00FB72AA /* AppDelegate.m */; };
 		A9841F291C04357C00FB72AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F281C04357C00FB72AA /* ViewController.m */; };
@@ -48,12 +58,26 @@
 		A986A3A51C04CE1800B55F38 /* Ash_UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A986A3A01C04CE1800B55F38 /* Ash_UIUtil.m */; };
 		A986A3A61C04CE1800B55F38 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A986A3A21C04CE1800B55F38 /* CommonUtil.m */; };
 		A986A3A71C04CE1800B55F38 /* UIImageView+Reloading.m in Sources */ = {isa = PBXBuildFile; fileRef = A986A3A41C04CE1800B55F38 /* UIImageView+Reloading.m */; };
+		A986A3AB1C04D30000B55F38 /* YKuImageInLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A986A3AA1C04D30000B55F38 /* YKuImageInLoopScrollView.m */; };
+		A986A3AD1C04D63600B55F38 /* bannerbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A986A3AC1C04D63600B55F38 /* bannerbg@2x.png */; };
+		A986A3AF1C04D64B00B55F38 /* bannerbg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A986A3AE1C04D64B00B55F38 /* bannerbg@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		039B3B8DE609FF96BF1F8983 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1FF024B7A433F169D4A7C1DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		505D71422103A38B3602CE9B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A900FCFC1C07F9C6007B2E40 /* jiankantijian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiankantijian@3x.png"; sourceTree = "<group>"; };
+		A900FCFD1C07F9C6007B2E40 /* yiliaoxuqiu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yiliaoxuqiu@3x.png"; sourceTree = "<group>"; };
+		A900FCFE1C07F9C6007B2E40 /* yuyuezixun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuyuezixun@3x.png"; sourceTree = "<group>"; };
+		A900FD021C07F9EE007B2E40 /* jiankantijian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiankantijian@2x.png"; sourceTree = "<group>"; };
+		A900FD031C07F9EE007B2E40 /* yiliaoxuqiu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yiliaoxuqiu@2x.png"; sourceTree = "<group>"; };
+		A900FD041C07F9EE007B2E40 /* yuyuezixun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuyuezixun@2x.png"; sourceTree = "<group>"; };
+		A900FD091C07FEBC007B2E40 /* MyTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopView.h; sourceTree = "<group>"; };
+		A900FD0A1C07FEBC007B2E40 /* MyTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopView.m; sourceTree = "<group>"; };
+		A900FD0C1C07FF88007B2E40 /* MyTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTopView.xib; sourceTree = "<group>"; };
+		A900FD0E1C080066007B2E40 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+		A900FD101C080072007B2E40 /* avatar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@3x.png"; sourceTree = "<group>"; };
 		A9841F1E1C04357C00FB72AA /* Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9841F221C04357C00FB72AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9841F241C04357C00FB72AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +142,10 @@
 		A986A3A21C04CE1800B55F38 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
 		A986A3A31C04CE1800B55F38 /* UIImageView+Reloading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Reloading.h"; sourceTree = "<group>"; };
 		A986A3A41C04CE1800B55F38 /* UIImageView+Reloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Reloading.m"; sourceTree = "<group>"; };
+		A986A3A91C04D30000B55F38 /* YKuImageInLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKuImageInLoopScrollView.h; sourceTree = "<group>"; };
+		A986A3AA1C04D30000B55F38 /* YKuImageInLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKuImageInLoopScrollView.m; sourceTree = "<group>"; };
+		A986A3AC1C04D63600B55F38 /* bannerbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerbg@2x.png"; sourceTree = "<group>"; };
+		A986A3AE1C04D64B00B55F38 /* bannerbg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerbg@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +166,16 @@
 				505D71422103A38B3602CE9B /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A900FD081C07FE9D007B2E40 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				A900FD091C07FEBC007B2E40 /* MyTopView.h */,
+				A900FD0A1C07FEBC007B2E40 /* MyTopView.m */,
+				A900FD0C1C07FF88007B2E40 /* MyTopView.xib */,
+			);
+			name = My;
 			sourceTree = "<group>";
 		};
 		A9841F151C04357C00FB72AA = {
@@ -210,6 +248,16 @@
 		A986A3311C04C4DC00B55F38 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A900FD101C080072007B2E40 /* avatar@3x.png */,
+				A900FD0E1C080066007B2E40 /* avatar@2x.png */,
+				A900FCFC1C07F9C6007B2E40 /* jiankantijian@3x.png */,
+				A900FCFD1C07F9C6007B2E40 /* yiliaoxuqiu@3x.png */,
+				A900FCFE1C07F9C6007B2E40 /* yuyuezixun@3x.png */,
+				A986A3AC1C04D63600B55F38 /* bannerbg@2x.png */,
+				A986A3AE1C04D64B00B55F38 /* bannerbg@3x.png */,
+				A900FD021C07F9EE007B2E40 /* jiankantijian@2x.png */,
+				A900FD031C07F9EE007B2E40 /* yiliaoxuqiu@2x.png */,
+				A900FD041C07F9EE007B2E40 /* yuyuezixun@2x.png */,
 				A986A39A1C04CD9A00B55F38 /* myed@2x.png */,
 				A986A39B1C04CD9A00B55F38 /* myno@2x.png */,
 				A986A3961C04CD7500B55F38 /* myno@3x.png */,
@@ -229,6 +277,7 @@
 		A986A3441C04C4DC00B55F38 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A986A3A81C04D30000B55F38 /* YKuLoopScrollView */,
 				A986A39E1C04CE1800B55F38 /* Tool */,
 				A986A3451C04C4DC00B55F38 /* AWordDefault.h */,
 				A986A3461C04C4DC00B55F38 /* AWordDefault.m */,
@@ -249,6 +298,7 @@
 		A986A34A1C04C4DC00B55F38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A900FD081C07FE9D007B2E40 /* My */,
 				A986A3791C04C7F700B55F38 /* Main */,
 				A986A34B1C04C4DC00B55F38 /* LoginViewController.h */,
 				A986A34C1C04C4DC00B55F38 /* LoginViewController.m */,
@@ -314,6 +364,15 @@
 				A986A3A41C04CE1800B55F38 /* UIImageView+Reloading.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		A986A3A81C04D30000B55F38 /* YKuLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A986A3A91C04D30000B55F38 /* YKuImageInLoopScrollView.h */,
+				A986A3AA1C04D30000B55F38 /* YKuImageInLoopScrollView.m */,
+			);
+			path = YKuLoopScrollView;
 			sourceTree = "<group>";
 		};
 		EE0E51118CD397393147ABC3 /* Pods */ = {
@@ -386,19 +445,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A986A3991C04CD7500B55F38 /* myed@3x.png in Resources */,
+				A900FCFF1C07F9C6007B2E40 /* jiankantijian@3x.png in Resources */,
+				A900FD001C07F9C6007B2E40 /* yiliaoxuqiu@3x.png in Resources */,
 				A986A36E1C04C4DC00B55F38 /* LoginViewController.xib in Resources */,
 				A986A3761C04C59400B55F38 /* Default.png in Resources */,
 				A986A3811C04C9E600B55F38 /* ServiceViewController.xib in Resources */,
+				A900FD011C07F9C6007B2E40 /* yuyuezixun@3x.png in Resources */,
 				A986A38B1C04CA4200B55F38 /* NavigateViewController.xib in Resources */,
 				A9841F311C04357C00FB72AA /* LaunchScreen.storyboard in Resources */,
+				A900FD0F1C080066007B2E40 /* avatar@2x.png in Resources */,
 				A986A3921C04CC6700B55F38 /* seriviced@3x.png in Resources */,
 				A9841F2E1C04357C00FB72AA /* Assets.xcassets in Resources */,
 				A986A3951C04CCDC00B55F38 /* Default@3x.png in Resources */,
 				A986A38F1C04CC5D00B55F38 /* serivicedno@2x.png in Resources */,
 				A986A3751C04C59400B55F38 /* Default-568h@2x.png in Resources */,
+				A900FD061C07F9EE007B2E40 /* yiliaoxuqiu@2x.png in Resources */,
+				A986A3AD1C04D63600B55F38 /* bannerbg@2x.png in Resources */,
+				A986A3AF1C04D64B00B55F38 /* bannerbg@3x.png in Resources */,
+				A900FD111C080072007B2E40 /* avatar@3x.png in Resources */,
 				A986A3771C04C59400B55F38 /* Default@2x.png in Resources */,
 				A9841F2C1C04357C00FB72AA /* Main.storyboard in Resources */,
+				A900FD051C07F9EE007B2E40 /* jiankantijian@2x.png in Resources */,
 				A986A39C1C04CD9A00B55F38 /* myed@2x.png in Resources */,
+				A900FD071C07F9EE007B2E40 /* yuyuezixun@2x.png in Resources */,
+				A900FD0D1C07FF88007B2E40 /* MyTopView.xib in Resources */,
 				A986A3981C04CD7500B55F38 /* myno@3x.png in Resources */,
 				A986A39D1C04CD9A00B55F38 /* myno@2x.png in Resources */,
 				A986A3861C04C9F400B55F38 /* MyViewController.xib in Resources */,
@@ -466,6 +536,7 @@
 				A986A38A1C04CA4200B55F38 /* NavigateViewController.m in Sources */,
 				A986A3551C04C4DC00B55F38 /* BaseModel.m in Sources */,
 				A986A3801C04C9E600B55F38 /* ServiceViewController.m in Sources */,
+				A986A3AB1C04D30000B55F38 /* YKuImageInLoopScrollView.m in Sources */,
 				A986A3571C04C4DC00B55F38 /* LoginModel.m in Sources */,
 				A9841F291C04357C00FB72AA /* ViewController.m in Sources */,
 				A986A3701C04C4DC00B55F38 /* LoginViewModel.m in Sources */,
@@ -481,6 +552,7 @@
 				A986A3A51C04CE1800B55F38 /* Ash_UIUtil.m in Sources */,
 				A986A3531C04C4DC00B55F38 /* BaseAPIClient.m in Sources */,
 				A986A37C1C04C84800B55F38 /* MainTabBarViewController.m in Sources */,
+				A900FD0B1C07FEBC007B2E40 /* MyTopView.m in Sources */,
 				A9841F231C04357C00FB72AA /* main.m in Sources */,
 				A986A3561C04C4DC00B55F38 /* BaseWLService.m in Sources */,
 			);

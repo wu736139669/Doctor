@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     _mainViewController = [[MainTabBarViewController alloc] init];
     self.window.rootViewController = _mainViewController;
+    _mainViewController.selectedIndex = 1;
     _mainViewController.delegate = self;
 
     return YES;
