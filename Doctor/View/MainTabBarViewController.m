@@ -27,9 +27,9 @@
         _serviceNav = [[UINavigationController alloc] initWithRootViewController:[[ServiceViewController alloc] init]];
         _navigateNav = [[UINavigationController alloc] initWithRootViewController:[[NavigateViewController alloc] init]];
         _myNav = [[UINavigationController alloc] initWithRootViewController:[[MyViewController alloc] init]];
-        [_navigateNav setTabBarItem:[[UITabBarItem alloc] initWithTitle:@"职能导航" image:[UIImage imageNamed:@"seriviceno"] selectedImage:[UIImage imageNamed:@"seriviced"]]];
+        [_navigateNav setTabBarItem:[[UITabBarItem alloc] initWithTitle:@"职能导航" image:[UIImage imageNamed:@"navno"] selectedImage:[UIImage imageNamed:@"naved"]]];
         
-        [_serviceNav setTabBarItem:[[UITabBarItem alloc] initWithTitle:@"医疗服务" image:[UIImage imageNamed:@"seriviceno"] selectedImage:[UIImage imageNamed:@"seriviced"]]];
+        [_serviceNav setTabBarItem:[[UITabBarItem alloc] initWithTitle:@"医疗服务" image:[UIImage imageNamed:@"serviceno"] selectedImage:[UIImage imageNamed:@"serviced"]]];
         
         [_myNav setTabBarItem:[[UITabBarItem alloc] initWithTitle:@"个人中心" image:[UIImage imageNamed:@"myno"] selectedImage:[UIImage imageNamed:@"myed"]]];
         self.viewControllers = @[_navigateNav,_serviceNav, _myNav];

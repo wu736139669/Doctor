@@ -18,6 +18,14 @@
 		A900FD0D1C07FF88007B2E40 /* MyTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A900FD0C1C07FF88007B2E40 /* MyTopView.xib */; };
 		A900FD0F1C080066007B2E40 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD0E1C080066007B2E40 /* avatar@2x.png */; };
 		A900FD111C080072007B2E40 /* avatar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD101C080072007B2E40 /* avatar@3x.png */; };
+		A900FD141C080756007B2E40 /* naved@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD121C080756007B2E40 /* naved@3x.png */; };
+		A900FD151C080756007B2E40 /* navno@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD131C080756007B2E40 /* navno@3x.png */; };
+		A900FD181C0807B5007B2E40 /* naved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD161C0807B5007B2E40 /* naved@2x.png */; };
+		A900FD191C0807B5007B2E40 /* navno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD171C0807B5007B2E40 /* navno@2x.png */; };
+		A900FD1C1C0807BD007B2E40 /* serviced@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD1A1C0807BD007B2E40 /* serviced@2x.png */; };
+		A900FD1D1C0807BD007B2E40 /* serviceno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD1B1C0807BD007B2E40 /* serviceno@2x.png */; };
+		A900FD201C0807D7007B2E40 /* serviced@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD1E1C0807D7007B2E40 /* serviced@3x.png */; };
+		A900FD211C0807D7007B2E40 /* serviceno@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A900FD1F1C0807D7007B2E40 /* serviceno@3x.png */; };
 		A9841F231C04357C00FB72AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F221C04357C00FB72AA /* main.m */; };
 		A9841F261C04357C00FB72AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F251C04357C00FB72AA /* AppDelegate.m */; };
 		A9841F291C04357C00FB72AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9841F281C04357C00FB72AA /* ViewController.m */; };
@@ -78,6 +86,14 @@
 		A900FD0C1C07FF88007B2E40 /* MyTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTopView.xib; sourceTree = "<group>"; };
 		A900FD0E1C080066007B2E40 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
 		A900FD101C080072007B2E40 /* avatar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@3x.png"; sourceTree = "<group>"; };
+		A900FD121C080756007B2E40 /* naved@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naved@3x.png"; sourceTree = "<group>"; };
+		A900FD131C080756007B2E40 /* navno@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navno@3x.png"; sourceTree = "<group>"; };
+		A900FD161C0807B5007B2E40 /* naved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naved@2x.png"; sourceTree = "<group>"; };
+		A900FD171C0807B5007B2E40 /* navno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navno@2x.png"; sourceTree = "<group>"; };
+		A900FD1A1C0807BD007B2E40 /* serviced@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serviced@2x.png"; sourceTree = "<group>"; };
+		A900FD1B1C0807BD007B2E40 /* serviceno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serviceno@2x.png"; sourceTree = "<group>"; };
+		A900FD1E1C0807D7007B2E40 /* serviced@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serviced@3x.png"; sourceTree = "<group>"; };
+		A900FD1F1C0807D7007B2E40 /* serviceno@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "serviceno@3x.png"; sourceTree = "<group>"; };
 		A9841F1E1C04357C00FB72AA /* Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9841F221C04357C00FB72AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9841F241C04357C00FB72AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -259,9 +275,17 @@
 				A900FD031C07F9EE007B2E40 /* yiliaoxuqiu@2x.png */,
 				A900FD041C07F9EE007B2E40 /* yuyuezixun@2x.png */,
 				A986A39A1C04CD9A00B55F38 /* myed@2x.png */,
+				A900FD121C080756007B2E40 /* naved@3x.png */,
+				A900FD131C080756007B2E40 /* navno@3x.png */,
 				A986A39B1C04CD9A00B55F38 /* myno@2x.png */,
+				A900FD1E1C0807D7007B2E40 /* serviced@3x.png */,
+				A900FD1F1C0807D7007B2E40 /* serviceno@3x.png */,
 				A986A3961C04CD7500B55F38 /* myno@3x.png */,
 				A986A3971C04CD7500B55F38 /* myed@3x.png */,
+				A900FD1A1C0807BD007B2E40 /* serviced@2x.png */,
+				A900FD1B1C0807BD007B2E40 /* serviceno@2x.png */,
+				A900FD161C0807B5007B2E40 /* naved@2x.png */,
+				A900FD171C0807B5007B2E40 /* navno@2x.png */,
 				A986A3901C04CC6700B55F38 /* seriviced@3x.png */,
 				A986A3911C04CC6700B55F38 /* seriviceno@3x.png */,
 				A986A38C1C04CC5D00B55F38 /* seriviced@2x.png */,
@@ -454,8 +478,11 @@
 				A986A38B1C04CA4200B55F38 /* NavigateViewController.xib in Resources */,
 				A9841F311C04357C00FB72AA /* LaunchScreen.storyboard in Resources */,
 				A900FD0F1C080066007B2E40 /* avatar@2x.png in Resources */,
+				A900FD1C1C0807BD007B2E40 /* serviced@2x.png in Resources */,
+				A900FD201C0807D7007B2E40 /* serviced@3x.png in Resources */,
 				A986A3921C04CC6700B55F38 /* seriviced@3x.png in Resources */,
 				A9841F2E1C04357C00FB72AA /* Assets.xcassets in Resources */,
+				A900FD151C080756007B2E40 /* navno@3x.png in Resources */,
 				A986A3951C04CCDC00B55F38 /* Default@3x.png in Resources */,
 				A986A38F1C04CC5D00B55F38 /* serivicedno@2x.png in Resources */,
 				A986A3751C04C59400B55F38 /* Default-568h@2x.png in Resources */,
@@ -463,16 +490,21 @@
 				A986A3AD1C04D63600B55F38 /* bannerbg@2x.png in Resources */,
 				A986A3AF1C04D64B00B55F38 /* bannerbg@3x.png in Resources */,
 				A900FD111C080072007B2E40 /* avatar@3x.png in Resources */,
+				A900FD211C0807D7007B2E40 /* serviceno@3x.png in Resources */,
 				A986A3771C04C59400B55F38 /* Default@2x.png in Resources */,
 				A9841F2C1C04357C00FB72AA /* Main.storyboard in Resources */,
 				A900FD051C07F9EE007B2E40 /* jiankantijian@2x.png in Resources */,
+				A900FD191C0807B5007B2E40 /* navno@2x.png in Resources */,
 				A986A39C1C04CD9A00B55F38 /* myed@2x.png in Resources */,
 				A900FD071C07F9EE007B2E40 /* yuyuezixun@2x.png in Resources */,
 				A900FD0D1C07FF88007B2E40 /* MyTopView.xib in Resources */,
 				A986A3981C04CD7500B55F38 /* myno@3x.png in Resources */,
 				A986A39D1C04CD9A00B55F38 /* myno@2x.png in Resources */,
+				A900FD141C080756007B2E40 /* naved@3x.png in Resources */,
+				A900FD1D1C0807BD007B2E40 /* serviceno@2x.png in Resources */,
 				A986A3861C04C9F400B55F38 /* MyViewController.xib in Resources */,
 				A986A3931C04CC6700B55F38 /* seriviceno@3x.png in Resources */,
+				A900FD181C0807B5007B2E40 /* naved@2x.png in Resources */,
 				A986A38E1C04CC5D00B55F38 /* seriviced@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,9 +699,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Doctor/PrefixHeader.pch;
 				INFOPLIST_FILE = Doctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ash.Doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "684854f2-c587-47b7-95f5-b53bb767678d";
 			};
 			name = Debug;
 		};
@@ -680,9 +714,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = Doctor/PrefixHeader.pch;
 				INFOPLIST_FILE = Doctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ash.Doctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "684854f2-c587-47b7-95f5-b53bb767678d";
 			};
 			name = Release;
 		};
